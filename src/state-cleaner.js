@@ -1,3 +1,5 @@
+import { toJS } from 'mori'
+
 export default state => {
   // If we have a toJS, lets assume we need to call it to get a plan 'ol JS object
   // NOTE: This handles ImmutableJS
@@ -5,5 +7,5 @@ export default state => {
     return state.toJS()
   }
 
-  return state
+  return toJS(state)
 }

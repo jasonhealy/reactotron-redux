@@ -60,6 +60,7 @@
   },
   "repository": "https://github.com/infinitered/reactotron-redux",
   "dependencies": {
+    "mori": "^0.3.2",
     "ramda": "^0.24.1",
     "ramdasauce": "^2.0.0",
     "reactotron-core-client": "^2.1.4",
